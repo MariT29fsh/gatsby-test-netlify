@@ -6,7 +6,7 @@ backend:
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: "Articles" # Used in routes, e.g., /admin/collections/blog
+  - name: "articles" # Used in routes, e.g., /admin/collections/blog
     label: "Articles" # Used in the UI
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
